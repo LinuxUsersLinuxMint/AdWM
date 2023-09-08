@@ -1,0 +1,3 @@
+AdWM Türkçe Sürümüdür.
+
+Not: Tüm fonksiyonların doğru çalışması için git yüklü olmalıdır.
