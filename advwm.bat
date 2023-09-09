@@ -35,13 +35,15 @@ goto m
 :iki
 echo AdVWM Update Manager
 echo Update Manager
-echo 4. setup.bat ile güncelleme
-echo 5. up_config.zip ile güncelleme
-echo 6. Yeni Kurulum (bu islem AdVWM yi siler kendiniz güncel dosyayı indirip kurulum yapmanız gerekir.)
+echo 4. Git ile Klonlama (Not: klonlama bittikten sonra yine kendini kurmanız gerekecektir.)
 echo Kac Numarali Plan:
 set input=nothing
 set/p input=Sec:
-if %input%==6 goto altı
-if %input%==8 goto sekiz
 if %input%==4 goto dört
 goto m
+:dört
+echo Advanced Windows Manager Update...
+pause
+git clone https://github.com/LinuxUsersLinuxMint/AdWM
+cd AdWM\win-install_uninstall.bat
+exit
