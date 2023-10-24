@@ -2,4 +2,5 @@
 
 AdWM Advanced Windows Manager (Gelişmiş windows yöneticisi)
 
-NOT: Tam Sürüm çıkmıştır.
+NOT: BETA Version
+NOTE: BETA Version
